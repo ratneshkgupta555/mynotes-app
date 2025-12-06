@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNotes.Core", "NotesApp.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNotes.Infrastructure", "NotesApp.Infrastructure\MyNotes.Infrastructure.csproj", "{569F6D02-90FD-3BC7-5315-B332FE501AC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNotes.Web.Test", "MyNotes.Web.Test\MyNotes.Web.Test.csproj", "{1E9DA32E-E43B-4CC5-A9CB-B27C3F584191}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{569F6D02-90FD-3BC7-5315-B332FE501AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{569F6D02-90FD-3BC7-5315-B332FE501AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{569F6D02-90FD-3BC7-5315-B332FE501AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9DA32E-E43B-4CC5-A9CB-B27C3F584191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9DA32E-E43B-4CC5-A9CB-B27C3F584191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9DA32E-E43B-4CC5-A9CB-B27C3F584191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9DA32E-E43B-4CC5-A9CB-B27C3F584191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
