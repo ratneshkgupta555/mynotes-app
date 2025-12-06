@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using NotesApp.Infrastructure.Data;
-using NotesApp.Infrastructure.Repositories;
-using NotesApp.Core.Interfaces;
+using MyNotes.Infrastructure.Data;
+using MyNotes.Infrastructure.Repositories;
+using MyNotes.Core.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

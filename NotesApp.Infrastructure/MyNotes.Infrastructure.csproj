@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NotesApp.Core\NotesApp.Core.csproj" />
+    <ProjectReference Include="..\NotesApp.Core\MyNotes.Core.csproj" />
   </ItemGroup>
 
 </Project>

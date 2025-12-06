@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NotesApp.Core.Interfaces;
-using NotesApp.Core.Models;
+using MyNotes.Core.Interfaces;
+using MyNotes.Core.Models;
 
-namespace NotesApp.Web.Controllers
+namespace MyNotes.Web.Controllers
 {
     public class NotesController : Controller
     {

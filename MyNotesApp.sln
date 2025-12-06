@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNotes.Web", "MyNotes.Web\
 		{569F6D02-90FD-3BC7-5315-B332FE501AC8} = {569F6D02-90FD-3BC7-5315-B332FE501AC8}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Core", "NotesApp.Core\NotesApp.Core.csproj", "{122EEEEC-7358-79CE-6AD3-0EE4F160E522}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNotes.Core", "NotesApp.Core\MyNotes.Core.csproj", "{122EEEEC-7358-79CE-6AD3-0EE4F160E522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Infrastructure", "NotesApp.Infrastructure\NotesApp.Infrastructure.csproj", "{569F6D02-90FD-3BC7-5315-B332FE501AC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNotes.Infrastructure", "NotesApp.Infrastructure\MyNotes.Infrastructure.csproj", "{569F6D02-90FD-3BC7-5315-B332FE501AC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

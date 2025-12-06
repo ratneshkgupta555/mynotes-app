@@ -1,6 +1,6 @@
-﻿using NotesApp.Core.Models;
+﻿using MyNotes.Core.Models;
 
-namespace NotesApp.Core.Interfaces
+namespace MyNotes.Core.Interfaces
 {
     public interface INoteRepository
     {

@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NotesApp.Core.Interfaces;
-using NotesApp.Core.Models;
-using NotesApp.Infrastructure.Data;
+using MyNotes.Core.Interfaces;
+using MyNotes.Core.Models;
+using MyNotes.Infrastructure.Data;
 
-namespace NotesApp.Infrastructure.Repositories
+namespace MyNotes.Infrastructure.Repositories
 {
     public class NoteRepository : INoteRepository
     {

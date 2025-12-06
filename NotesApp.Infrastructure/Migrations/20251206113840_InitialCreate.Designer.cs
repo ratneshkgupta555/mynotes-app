@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using NotesApp.Infrastructure.Data;
+using MyNotes.Infrastructure.Data;
 
 #nullable disable
 
-namespace NotesApp.Infrastructure.Migrations
+namespace MyNotes.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20251206113840_InitialCreate")]
