@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!--<ProjectReference Include="..\MyNotes.Test\MyNotes.Web.Test.csproj" />-->
     <ProjectReference Include="..\NotesApp.Core\MyNotes.Core.csproj" />
     <ProjectReference Include="..\NotesApp.Infrastructure\MyNotes.Infrastructure.csproj" />
   </ItemGroup>
