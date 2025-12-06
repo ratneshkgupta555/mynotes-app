@@ -1,0 +1,49 @@
+﻿@model IEnumerable<NotesApp.Core.Models.Note>
+
+@{
+    ViewData["Title"] = "Notes";
+}
+
+<h1>Notes</h1>
+
+<div class="card mb-4">
+    <div class="card-body">
+        @await Html.PartialAsync("_Form", new NotesApp.Core.Models.Note())
+    </div>
+</div>
+
+<div id="notesList">
+    @foreach (var note in Model)
+    {
+        <div class="card mb-3" data-id="@note.Id">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <h5 class="card-title note-title">@note.Title</h5>
+                    <small class="text-muted">@note.CreatedAt.ToLocalTime().ToString("g")</small>
+                </div>
+                <p class="card-text note-content">@Html.Raw(Html.Encode(note.Content).Replace("\n", "<br />"))</p>
+
+                <div class="mt-2">
+                    <button class="btn btn-sm btn-outline-secondary btn-edit">Edit Inline</button>
+                    <a asp-action="Edit" asp-route-id="@note.Id" class="btn btn-sm btn-outline-primary">Full Edit</a>
+
+                    <form asp-action="Delete" asp-route-id="@note.Id" method="post" class="d-inline" onsubmit="return confirm('Delete this note?');">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-sm btn-outline-danger">Delete</button>
+                    </form>
+                </div>
+
+                <div class="inline-editor mt-3" style="display:none;">
+                    <input class="form-control mb-2 inline-title" value="@note.Title" />
+                    <textarea class="form-control mb-2 inline-content" rows="4">@note.Content</textarea>
+                    <button class="btn btn-sm btn-success btn-save-inline">Save</button>
+                    <button class="btn btn-sm btn-secondary btn-cancel-inline">Cancel</button>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script src="~/js/notes.js"></script>
+}
